@@ -5,7 +5,7 @@
 /* Heading Section Starts */
 header {
     background: url('./images/banner.png');
-    background-size: cover;
+    background-size: 100%;
     background-position-y: -6rem;
     background-repeat: no-repeat;
 }
@@ -53,7 +53,9 @@ a.order:hover{
     background-size: 100% 100%;
     color: red;
 }
-
+.chef-section h1 {
+    font-weight: bold;
+}
 .chef-section img{
     width: 40%;
 }

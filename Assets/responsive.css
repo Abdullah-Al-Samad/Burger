@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
     header {
         background: url('./images/banner.png');
-        background-size: cover;
+        background-size: contain;
         background-position-y: -6rem;
         background-repeat: no-repeat;
     }

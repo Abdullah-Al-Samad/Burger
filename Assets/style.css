@@ -1,0 +1,217 @@
+*{
+    font-family: 'poppins';
+}
+
+/* Heading Section Starts */
+header {
+    background: url('./images/banner.png');
+    background-size: cover;
+    background-position-y: -6rem;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.heading-section{
+    background: linear-gradient(180deg, #000, transparent);
+    font-weight: 800;
+}
+
+.sticky-top{
+    background: url('./images/banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -3px;
+}
+
+a.order{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-weight: 800;
+}
+a.order:hover{
+    text-decoration: none;
+    color: white;
+}
+.heading-text{
+    padding: 8.5rem 0;
+}
+
+.heading-section ul li a{
+    color: white;
+}
+
+/* Heading Section Ends */
+
+
+/* Chef Section Starts */
+.chef-section{
+    background: url('./images/chef_bg.png') no-repeat;
+    background-size: 100% 100%;
+    color: red;
+}
+
+.chef-section img{
+    width: 40%;
+}
+
+.chef-section h5{
+    font-weight: 600;
+}
+
+.chef-section .col-4{
+    cursor: pointer;
+}
+
+.chef-section .col-4:hover{
+    top: -10;
+}
+
+.fa-bars{
+    color: white;
+}
+/* Chef Section Ends */
+
+
+/* Best Burger Section Starts */
+.best-burger{
+    background-color: red;
+    padding: 7rem 0;
+}
+
+.best-burger a.btn{
+    background-color: #fff;
+    border-radius: 25px;
+    color: red;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+.best-burger a.btn:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+}
+
+.best-burger h1, .burger p{
+    font-weight: bold;
+}
+/* Best Burger Section Ends */
+
+/* Big Burger Section Starts */
+.big-burger{
+    background: url('./images/chef_bg.png');
+    background-size: 100% 100%;
+    padding: 7rem 0;
+}
+
+.big-burger h1, .big-burger p{
+    color: red;
+}
+
+.big-burger h1{
+    font-weight: bold;
+}
+
+.big-burger a.btn {
+    background: red;
+    color: white;
+    border-radius: 25px;
+}
+/* Big Burger Section Ends */
+
+/* Statistics Section Starts */
+.statistics{
+    background-color: red;
+    color: white;
+}
+
+.statistics h2{
+    font-weight: bolder;
+}
+
+.statistics .border {
+    padding: 3rem 60px;
+    border: 5px solid !important;
+    width: 65%;
+}
+
+.statistics .border h1, .statistics .border p{
+    font-weight: bold;
+}
+
+/* Statistics Section Ends */
+
+/* Popular Packages Section Starts */
+.popular-packages {
+    background: url('./images/chef_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.popular-packages h1.text-center{
+    font-weight: bold;
+}
+
+.package {
+    padding: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.package:hover {
+    box-shadow: 0px 0px 10px #555;
+    transition: all 1s;
+}
+
+.popular-packages a.btn{
+    background-color: red;
+    color: white;
+    padding: 5px 2rem;
+    border-radius: 20px;
+}
+/* Popular Packages Section Ends */
+
+/* Testiomonial Section Starts */
+.testimonial {
+    background: url('./images/testimonial.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial .carousel {
+    background: rgb(255, 0, 0, 0.5);
+}
+
+/* Testiomonial Section Ends */
+
+/* Subscribe Section Starts */
+.subscribe {
+    background: url('/Assets/images/chef_bg.png');
+    background-size: 100% 100%;
+    color: red;
+}
+
+.subscribe .container {
+    padding: 10rem 0;
+}
+
+.subscribe input {
+    border-radius: 50px 0 0 50px !important;
+}
+
+.subscribe a {
+    border-radius: 0 50px 50px 0 !important;
+    background: red;
+    color: white;
+}
+
+.subscribe a:hover {
+    text-decoration: none;
+    color: white;
+}
+/* Subscribe Section Ends */

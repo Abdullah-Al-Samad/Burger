@@ -21,7 +21,7 @@ header {
 
 .sticky-top{
     background: url('./images/banner.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -3px;
 }
